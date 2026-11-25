@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Дроби</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍕</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Plain scripts (no modules) so the app also works when index.html is opened by double-click.
+       Order matters: each file uses what the files above it define. -->
+  <script src="core.js"></script>
+  <script src="strings.js"></script>
+
+  <!-- OBJECTS: to add a new object, create objects/<name>.js and add one line here. -->
+  <script src="objects/pizza.js"></script>
+  <script src="objects/chocolate.js"></script>
+
+  <script src="tasks.js"></script>
+  <script src="generator.js"></script>
+  <script src="widgets.js"></script>
+
+  <!-- MODES: home-screen buttons appear in this order. -->
+  <script src="modes/quiz.js"></script>
+  <script src="modes/tasks.js"></script>
+  <script src="modes/sandbox.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
